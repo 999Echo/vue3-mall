@@ -1,0 +1,25 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --mode development",
+    "build:beta": "vite build --mode beta",
+    "build:release": "vite build --mode release",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "axios": "^1.3.4",
+    "element-plus": "^2.3.1",
+    "js-md5": "^0.7.3",
+    "vue": "^3.2.47",
+    "vue-router": "^4.0.13",
+    "wangeditor": "^4.7.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.4"
+  }
+}
